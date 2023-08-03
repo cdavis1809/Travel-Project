@@ -1,7 +1,64 @@
-h1 {
-  font-family: Poppins;
+:root {
+  --primary-color: white;
+  --font-family: Poppins, serif;
+}
+body {
+  font-family: var(--font-family);
+  background: #1d1d1f;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/tulum.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 120px 0;
+  color: var(--primary-color);
+  margin: 0 auto;
+}
+header h3 {
+  font-size: 24px;
+  font-weight: 900px;
+  margin-top: 30px;
+  letter-spacing: 5px;
+}
+header h1 {
   font-size: 96px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+header h2 {
+  font-size: 48px;
+  font-weight: normal;
+}
+header a {
+  padding: 16px 32px;
+  background-color: var(--primary-color);
+  color: #1d1d1f;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 32px;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
 }
