@@ -124,7 +124,7 @@ footer p {
 section {
   max-width: 100%;
   margin: 0 auto;
-  padding: 100px;
+  padding: 70px 100px;
 }
 section.secondary {
   background-color: #f8f8f8;
@@ -148,7 +148,7 @@ section.secondary {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 80%;
-  padding: 100px 0;
+  padding: 80px 0;
 }
 .img-grid {
   width: 100%;
@@ -198,6 +198,22 @@ section.secondary {
   line-height: normal;
   letter-spacing: 3px;
   text-transform: uppercase;
+}
+.text-center {
+  text-align: center;
+}
+.insta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  width: 100%;
+  padding: 20px 0;
+}
+.author {
+  color: #4661ce;
+}
+.author a {
+  color: #4661ce;
 }
 @media (max-width: 960px) {
   header {
